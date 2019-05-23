@@ -10,3 +10,6 @@ The server is to be configured via the console taking two parameters, i.e., the 
 Extend the server above such that a separate thread handles each request. Additionally, keep a log of all requests (i.e., timestamp, request, IP address and port of the client) which is output to the console every five seconds by yet another thread.
 
 
+PS: Today's browsers do not support http/0.9 (they add headers to packets automatically), teherefore use older versions of browsers like firefox from 2005.
+
+
